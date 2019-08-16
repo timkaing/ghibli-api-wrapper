@@ -1,6 +1,6 @@
 const ghibli = require('./esm/index.js')
 
-/** FILTER BY PRODUCER */
+/** FILTER BY Director */
 ghibli.filterDirector('Hayao Miyazaki').then((arrOfFilms) => console.log(arrOfFilms))
 /** FILTER BY PRODUCER */
 ghibli.filterProducer('Isao Takahata').then((arrOfFilms) => console.log(arrOfFilms))

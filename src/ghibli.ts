@@ -26,7 +26,7 @@ const capitalizeFirstLetter = (string: string) => {
 }
 
 /**
- * Convers a string into titlecase
+ * Converts a string into titlecase
  * 
  * @param {string} string The string to be manipulated
  * @returns {string} The string in titlecase
