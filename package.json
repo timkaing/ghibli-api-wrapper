@@ -2,9 +2,13 @@
   "name": "ghibli-wrapper",
   "version": "1.0.0",
   "description": "",
-  "main": "src/ghibli-wrapper.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "rollup --config"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +17,8 @@
     "got": "^9.6.0"
   },
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-terser": "^5.1.1"
   }
 }
