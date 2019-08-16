@@ -3,7 +3,7 @@ A simple API wrapper that allows one to easy filter through all of the ghibli fi
 
 Powered by janaipakos' [Studio Ghibli API](https://github.com/janaipakos/ghibliapi)
 
-# Installation (coming soon)
+# Installation
 
 Run the Following command in your project's directory:
 ```
